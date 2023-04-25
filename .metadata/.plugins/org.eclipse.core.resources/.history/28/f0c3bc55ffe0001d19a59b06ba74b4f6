@@ -1,0 +1,15 @@
+package mymvp;
+
+import org.testng.annotations.Test;
+
+public class Ts extends Baseclass {
+
+	@Test(dataProvider = "aaa",dataProviderClass = Testdata.class)
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package corejava;
+
+import java.util.Scanner;
+
+public class Gsahcas {
+
+	public static void main(String[] args) {
+		
+		Scanner a=new Scanner(System.in);
+		System.out.println("enter the number");
+		int num = a.nextInt(),num1=0,num2=1,num3=0;
+		//System.out.println(num1+","+num2+","+num3+",");
+		for(int i=2; i<num; i++) {
+			num3=num1+num2;
+			num1=num2;
+			num2=num1;
+		}
+
+	}
+
+}

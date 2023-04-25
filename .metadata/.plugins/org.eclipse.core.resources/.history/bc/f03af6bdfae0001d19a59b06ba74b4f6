@@ -1,0 +1,12 @@
+package mymvp;
+
+public class Testdata {
+	
+	
+	public static String [][] getdata()
+	{
+		String [] [] arr= {{"vijith", "nbnbn"}};
+		return arr;
+	}
+
+}

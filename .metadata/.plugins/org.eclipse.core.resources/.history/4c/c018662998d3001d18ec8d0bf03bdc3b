@@ -1,0 +1,30 @@
+package array;
+
+public class Singledimensionarray {
+
+	public static void main(String[] args) {
+		
+		// approach1
+	
+		// declare an array
+		int a[]=new int[5];
+		     
+		
+		a[0]=100;
+		a[1]=200;
+		a[2]=200;
+		a[3]=200;
+		a[4]=200;
+		
+		
+		// approach2
+		
+		int a1[]= {100,200,300,400,500};
+				
+		//find size of an array
+		System.out.println(a1.length);
+
+	}
+
+}
+

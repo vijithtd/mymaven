@@ -1,0 +1,15 @@
+package mymvp;
+
+import org.testng.annotations.DataProvider;
+
+public class Testdata {
+	
+	
+	@DataProvider(name = "flipkart")
+	public static String[] getdata()
+	{	
+		String [] arr= {"vijith"};
+		return arr;
+		
+	}
+}
